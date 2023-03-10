@@ -3,3 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+ .wrapper{
+    background-color: lightcoral;
+    /* /* height: 500px; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+ }

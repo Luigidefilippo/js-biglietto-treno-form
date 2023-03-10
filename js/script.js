@@ -21,5 +21,13 @@ generateBtn.addEventListener("click", function(){
       finalPrice = basePrice -( baseprice * 40 /100);
       offer = "Over 65";
   }
+  // generazione  numero cabina
+  const cabin = Math.floor(Math.random() 9*)+1;
+    
 
+  // STAMPIAMO IL PREZZO IN PAGINA
+  document.getElementById("nome").innerHTML = `${name}`;
+  document.getElementById("offerta applicata ").innerHTML = `${offer}`;
+  document.getElementById("carrozza").innerHTML = `${cabin}`;
+  document.getElementById("costo").innerHTML = `€${finalPrice.toFixed(2)}`;
 })
